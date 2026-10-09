@@ -1,0 +1,24 @@
+{
+  "expert": {
+    "success_rate": 0.932,
+    "mean_final_error_m": 0.01853319867881609
+  },
+  "demo_samples": 3652,
+  "behavior_cloning": {
+    "success_rate": 0.238,
+    "mean_final_error_m": 0.13576027092348023
+  },
+  "dagger": {
+    "success_rate": 0.418,
+    "mean_final_error_m": 0.06237405128898494,
+    "samples": 15759
+  },
+  "dagger_success_by_round": [
+    0.272,
+    0.356,
+    0.402,
+    0.318,
+    0.386,
+    0.418
+  ]
+}

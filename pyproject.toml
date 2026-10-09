@@ -1,0 +1,12 @@
+[project]
+name = "arm-imitation"
+version = "0.1.0"
+description = "Imitation learning for a simulated 3-joint arm: teleop-style demos -> PyTorch policy"
+requires-python = ">=3.10"
+dependencies = ["numpy", "torch", "matplotlib"]
+
+[dependency-groups]
+dev = ["pytest"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
